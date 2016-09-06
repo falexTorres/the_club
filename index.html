@@ -172,6 +172,7 @@
 										<h5><a id="menuTopBeer" class="menu-top waves-effect waves-red btn orange lighten-5 black-text">Beer and Wine</a></h5>
 							        </div>
 						        </div>
+						        <div class="row-pad-me"></div>
 						        <div class="row"> 
 							        <div id="descriptionDiv" class="col-lg-3 col-med-2 pull-left">
 								        <div id="foodDescription">
@@ -212,7 +213,7 @@
 										
 										        <tbody>
 										          <tr id="food1" class="active-menu-select">
-										            <td class="active-menu-select">Fish Tacos</td>									     
+										            <td id="foodDefault" class="active-menu-select">Fish Tacos</td>									     
 										            <td>$0.87</td>
 										          </tr>
 										          <tr id="food2">
@@ -227,12 +228,11 @@
 									      	</table>
 								        </div>
 								        <div id="beer-wine-nav-bar" style="display: none">
-									        <div id="beer-wine-choice">
-										        <div class="row-pad-me"></div>
+									        <div id="beer-wine-choice">										        
 												<table class="bordered highlight centered responsive-table">
 											        <thead>
 											          <tr>
-											              <a id="wineButton" class="btn light-blue lighten-5 red-text" style="margin-right: 0.5%">Wine</a>				             
+											              <a id="wineButton" class="btn light-blue lighten-5 red-text" style="margin-right: 1.5%; margin-left: 47.5;">Wine</a>				             
 											              <a id="beerButton" class="btn light-blue lighten-5 black-text">Beer</a>
 											          </tr>
 											        </thead>
@@ -250,7 +250,7 @@
 												
 												        <tbody>
 												          <tr id="wine1_1" class="active-menu-select">
-												            <td>House Merlot de Burg</td>									     
+												            <td id="wineDefault">House Merlot de Burg</td>									     
 												            <td>$0.87</td>
 												          </tr>
 												          <tr id="wine1_2">
@@ -351,7 +351,7 @@
 												
 												        <tbody>
 												          <tr id="beer1_1">
-												            <td>Lonestar</td>									     
+												            <td id="beerDefault">Lonestar</td>									     
 												            <td>$0.87</td>
 												          </tr>
 												          <tr id="beer1_2">
@@ -439,26 +439,40 @@
 												        </tbody>
 											      	</table>
 										        </div>
-								        	</div>
+								        	</div>								      								        	
 								        </div>
+								        <div id="pagerDiv" style="margin-left: 17.5%"> 									       
+												<div id="winePager" style="display: none">
+													<ul class="pagination">												    
+													    <li class="active waves-effect"><a href="#!">1</a></li>
+													    <li class="waves-effect"><a href="#!">2</a></li>
+													    <li class="waves-effect"><a href="#!">3</a></li>										
+													</ul>
+												</div>	
+												<div id="beerPager" style="display: none">
+													<ul class="pagination">												    
+													    <li class="active waves-effect"><a href="#!">1</a></li>
+													    <li class="waves-effect"><a href="#!">2</a></li>
+													    <li class="waves-effect"><a href="#!">3</a></li>										
+													</ul>
+												</div>								        										     
+									        </div>	
+							        	</div>
 							        </div>
 						        </div>						          	
 					          </div>
 				          </div>
 				        </div>
 			      	</div>
-			    </div>
-			     <div id="contactDiv" class="row" style="display: none">
-			      	<div class="col s12 m12 l12">
+			      	<div id="contactDiv" class="row" style="display: none">		      	
 				        <div class="card-panel text-center">
 				          <span class="black-text">
 				          <h5>Event Calendar</h5>
-				          <img src=""/>
 				          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				          </span>
 				        </div>
-			      	</div>
-			    </div>
+			    	</div>
+			    </div>			     
 			</div> 			
 		</div>	
 	</body>	

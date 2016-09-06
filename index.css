@@ -150,8 +150,38 @@ table.highlight>tbody>tr.active-menu-select {
 }
 
 div.row-pad-me {
-	padding-bottom: 15%;
+	padding-bottom: 2.5%;
 }
+
+.pagination li.active.waves-effect a {
+    background-color: #4dd0e1;
+	border-color: #4dd0e1;
+	border-radius: 1rem;
+}
+
+.pagination li.active.waves-effect a:hover {
+    color: black;
+}
+
+.pagination li.active.waves-effect {
+    background-color: #4dd0e1;
+	border-color: #4dd0e1;
+	border-radius: 1rem;
+}
+
+.pagination li.waves-effect a {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.pagination li.waves-effect a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #4dd0e1;
+	border-color: #4dd0e1;
+	border-radius: 0.1rem;
+}
+
     
  
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
