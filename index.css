@@ -135,9 +135,14 @@ img.responsive-img.circle.materialboxed {
 	display: inline-block;
 }
 
+.menu-top.waves-effect.waves-red.btn.orange.lighten-5:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+
 a.menu-active-top {
-	color: #23527c;
-    text-decoration: underline;
+	text-decoration: none;
+	color: #ff0000;
 }
 
 table.highlight>tbody>tr.active-menu-select {
